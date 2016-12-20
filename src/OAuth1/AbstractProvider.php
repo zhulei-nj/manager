@@ -1,11 +1,11 @@
 <?php
 
-namespace SocialiteProviders\Manager\OAuth1;
+namespace zhulei\Manager\OAuth1;
 
 use Laravel\Socialite\One\AbstractProvider as BaseProvider;
-use SocialiteProviders\Manager\SocialiteWasCalled;
-use SocialiteProviders\Manager\ConfigTrait;
-use SocialiteProviders\Manager\Contracts\ConfigInterface as Config;
+use zhulei\Manager\SocialiteWasCalled;
+use zhulei\Manager\ConfigTrait;
+use zhulei\Manager\Contracts\ConfigInterface as Config;
 use Symfony\Component\HttpFoundation\RedirectResponse;
 
 abstract class AbstractProvider extends BaseProvider
@@ -118,7 +118,7 @@ abstract class AbstractProvider extends BaseProvider
      */
     protected function isStateless()
     {
-        if (defined('SOCIALITEPROVIDERS_STATELESS')) {
+        if (defined('ZHULEI_STATELESS')) {
             return true;
         }
 

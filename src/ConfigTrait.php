@@ -1,8 +1,8 @@
 <?php
 
-namespace SocialiteProviders\Manager;
+namespace zhulei\Manager;
 
-use SocialiteProviders\Manager\Contracts\ConfigInterface;
+use zhulei\Manager\Contracts\ConfigInterface;
 
 trait ConfigTrait
 {

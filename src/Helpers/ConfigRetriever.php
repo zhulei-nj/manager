@@ -1,12 +1,12 @@
 <?php
 
-namespace SocialiteProviders\Manager\Helpers;
+namespace zhulei\Manager\Helpers;
 
-use SocialiteProviders\Manager\Config;
-use SocialiteProviders\Manager\Contracts\ConfigInterface;
-use SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface;
-use SocialiteProviders\Manager\Exception\MissingConfigException;
-use SocialiteProviders\Manager\SocialiteWasCalled;
+use zhulei\Manager\Config;
+use zhulei\Manager\Contracts\ConfigInterface;
+use zhulei\Manager\Contracts\Helpers\ConfigRetrieverInterface;
+use zhulei\Manager\Exception\MissingConfigException;
+use zhulei\Manager\SocialiteWasCalled;
 
 class ConfigRetriever implements ConfigRetrieverInterface
 {

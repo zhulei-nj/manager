@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Manager;
+namespace zhulei\Manager;
 
 class Config implements Contracts\ConfigInterface
 {

@@ -1,11 +1,11 @@
 <?php
 
-namespace SocialiteProviders\Manager\OAuth1;
+namespace zhulei\Manager\OAuth1;
 
 use GuzzleHttp\Exception\BadResponseException;
 use League\OAuth1\Client\Credentials\TemporaryCredentials;
 use League\OAuth1\Client\Credentials\TokenCredentials;
-use SocialiteProviders\Manager\ConfigTrait;
+use zhulei\Manager\ConfigTrait;
 use League\OAuth1\Client\Server\Server as BaseServer;
 
 abstract class Server extends BaseServer

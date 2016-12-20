@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Manager\Exception;
+namespace zhulei\Manager\Exception;
 
 class MissingConfigException extends \Exception
 {

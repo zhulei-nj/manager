@@ -1,12 +1,12 @@
 <?php
 
-namespace SocialiteProviders\Manager\OAuth2;
+namespace zhulei\Manager\OAuth2;
 
 use Illuminate\Support\Arr;
 use Laravel\Socialite\Two\InvalidStateException;
-use SocialiteProviders\Manager\Contracts\OAuth2\ProviderInterface;
-use SocialiteProviders\Manager\SocialiteWasCalled;
-use SocialiteProviders\Manager\ConfigTrait;
+use zhulei\Manager\Contracts\OAuth2\ProviderInterface;
+use zhulei\Manager\SocialiteWasCalled;
+use zhulei\Manager\ConfigTrait;
 use Laravel\Socialite\Two\AbstractProvider as BaseProvider;
 
 abstract class AbstractProvider extends BaseProvider implements ProviderInterface
@@ -24,7 +24,7 @@ abstract class AbstractProvider extends BaseProvider implements ProviderInterfac
     }
 
     /**
-     * @return \SocialiteProviders\Manager\OAuth2\User
+     * @return \zhulei\Manager\OAuth2\User
      */
     public function user()
     {

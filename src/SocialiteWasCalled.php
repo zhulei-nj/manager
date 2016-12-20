@@ -1,16 +1,16 @@
 <?php
 
-namespace SocialiteProviders\Manager;
+namespace zhulei\Manager;
 
 use Illuminate\Container\Container as Application;
 use Laravel\Socialite\SocialiteManager;
-use SocialiteProviders\Manager\Contracts\Helpers\ConfigRetrieverInterface;
-use SocialiteProviders\Manager\Exception\InvalidArgumentException;
-use SocialiteProviders\Manager\Exception\MissingConfigException;
+use zhulei\Manager\Contracts\Helpers\ConfigRetrieverInterface;
+use zhulei\Manager\Exception\InvalidArgumentException;
+use zhulei\Manager\Exception\MissingConfigException;
 
 class SocialiteWasCalled
 {
-    const SERVICE_CONTAINER_PREFIX = 'SocialiteProviders.config.';
+    const SERVICE_CONTAINER_PREFIX = 'zhulei-nj.config.';
 
     /**
      * @var LaravelApp
@@ -54,7 +54,7 @@ class SocialiteWasCalled
         $socialite->extend(
             $providerName,
             function () use ($provider) {
-                if (defined('SOCIALITEPROVIDERS_STATELESS') && SOCIALITEPROVIDERS_STATELESS) {
+                if (defined('ZHULEI_STATELESS') && SOCIALITEPROVIDERS_STATELESS) {
                     return $provider->stateless();
                 }
 

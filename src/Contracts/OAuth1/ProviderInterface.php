@@ -1,8 +1,8 @@
 <?php
 
-namespace SocialiteProviders\Manager\Contracts\OAuth1;
+namespace zhulei\Manager\Contracts\OAuth1;
 
-use SocialiteProviders\Manager\Contracts\ConfigInterface as Config;
+use zhulei\Manager\Contracts\ConfigInterface as Config;
 
 interface ProviderInterface
 {

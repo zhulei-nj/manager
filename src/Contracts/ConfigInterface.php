@@ -1,6 +1,6 @@
 <?php
 
-namespace SocialiteProviders\Manager\Contracts;
+namespace zhulei\Manager\Contracts;
 
 interface ConfigInterface
 {

@@ -1,10 +1,10 @@
 {
-    "name": "socialiteproviders/manager",
+    "name": "zhulei-nj/manager",
     "description": "Easily add new or override built-in providers in Laravel Socialite.",
     "license": "MIT",
     "authors": [{
-        "name": "Andy Wendt",
-        "email": "andy@awendt.com"
+        "name": "zhulei",
+        "email": "lei.zhu@ganchi-software.com"
     }],
     "require": {
         "php": "^5.6 || ^7.0",
@@ -16,8 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "SocialiteProviders\\Manager\\": "src/",
-            "SocialiteProviders\\Manager\\Test\\": "tests/"
+            "zhulei\\Manager\\": "src/"
         }
     },
     "minimum-stability": "stable"

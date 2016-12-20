@@ -1,9 +1,9 @@
 <?php
 
-namespace SocialiteProviders\Manager\Contracts\Helpers;
+namespace zhulei\Manager\Contracts\Helpers;
 
-use SocialiteProviders\Manager\Contracts\ConfigInterface;
-use SocialiteProviders\Manager\Exception\MissingConfigException;
+use zhulei\Manager\Contracts\ConfigInterface;
+use zhulei\Manager\Exception\MissingConfigException;
 
 interface ConfigRetrieverInterface
 {
